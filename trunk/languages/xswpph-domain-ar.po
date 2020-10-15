@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR xfinitysoft
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wordpress hide post lite\n"
+"POT-Creation-Date: 2019-07-17 18:11+0500\n"
+"PO-Revision-Date: 2019-07-17 18:11+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/classes/class-xswphp-init.php:21
+#: includes/classes/class-xswphp-init.php:22 templates/xswphp-page.php:15
+msgid "Wordpress Hide Post"
+msgstr "وورد إخفاء مشاركة"
+
+#: includes/classes/class-xswphp-init.php:87
+msgid "Post Visibility"
+msgstr "وظيفة الرؤية"
+
+#: templates/views/xswphp-filter.php:13 templates/views/xswphp-filter.php:16
+#: templates/views/xswphp-filter.php:19 templates/views/xswphp-filter.php:22
+#: templates/views/xswphp-filter.php:25 templates/views/xswphp-filter.php:28
+#: templates/views/xswphp-filter.php:31 templates/views/xswphp-filter.php:34
+#: templates/views/xswphp-filter.php:37 templates/views/xswphp-filter.php:40
+#: templates/views/xswphp-filter.php:44 templates/views/xswphp-filter.php:47
+#: templates/views/xswphp-filter.php:50
+msgid "selected"
+msgstr "المحدد"
+
+#: templates/views/xswphp-filter.php:14
+msgid "All Hidden"
+msgstr "كل مخفي"
+
+#: templates/views/xswphp-filter.php:17 templates/views/xswphp-filter.php:45
+msgid "Front Page"
+msgstr "الصفحة الأولى"
+
+#: templates/views/xswphp-filter.php:20
+msgid "Category Pages"
+msgstr "صفحات الفئة"
+
+#: templates/views/xswphp-filter.php:23
+msgid "Tag Pages"
+msgstr "علامات الصفحات"
+
+#: templates/views/xswphp-filter.php:26
+msgid "Author Pages"
+msgstr "صفحات المؤلف"
+
+#: templates/views/xswphp-filter.php:29
+msgid "Date Archive"
+msgstr "تاريخ الأرشيف"
+
+#: templates/views/xswphp-filter.php:32
+msgid "Search Results"
+msgstr "نتائج البحث"
+
+#: templates/views/xswphp-filter.php:35
+msgid "Feeds"
+msgstr "يغذي"
+
+#: templates/views/xswphp-filter.php:38
+msgid "Recent Post"
+msgstr "المنشور الاخير"
+
+#: templates/views/xswphp-filter.php:41
+msgid "Meta rel link"
+msgstr "رابط الفوقية rel"
+
+#: templates/views/xswphp-filter.php:44 templates/views/xswphp-filter.php:51
+#: templates/views/xswphp-metaboxes.php:102
+#: templates/views/xswphp-quickedit.php:125
+msgid "Hide but keep in Search"
+msgstr "إخفاء ولكن في البحث"
+
+#: templates/views/xswphp-filter.php:48
+msgid "Always"
+msgstr "دائما"
+
+#: templates/views/xswphp-metaboxes.php:18
+#: templates/views/xswphp-metaboxes.php:22
+#: templates/views/xswphp-metaboxes.php:28
+#: templates/views/xswphp-metaboxes.php:34
+#: templates/views/xswphp-metaboxes.php:40
+#: templates/views/xswphp-metaboxes.php:46
+#: templates/views/xswphp-metaboxes.php:52
+#: templates/views/xswphp-metaboxes.php:58
+#: templates/views/xswphp-metaboxes.php:64
+#: templates/views/xswphp-metaboxes.php:70
+#: templates/views/xswphp-metaboxes.php:89
+#: templates/views/xswphp-metaboxes.php:92
+#: templates/views/xswphp-metaboxes.php:96
+#: templates/views/xswphp-metaboxes.php:100
+msgid "Checked"
+msgstr "ذو مربعات"
+
+#: templates/views/xswphp-metaboxes.php:19
+#: templates/views/xswphp-metaboxes.php:90
+#: templates/views/xswphp-quickedit.php:30
+#: templates/views/xswphp-quickedit.php:108 templates/xswphp-page.php:35
+msgid "All Check/Uncheck"
+msgstr "كل تحقق / إلغاء التحقق"
+
+#: templates/views/xswphp-metaboxes.php:24
+#: templates/views/xswphp-quickedit.php:35
+msgid "Hide from Front Page"
+msgstr "إخفاء من الصفحة الأمامية"
+
+#: templates/views/xswphp-metaboxes.php:30
+#: templates/views/xswphp-quickedit.php:41
+msgid "Hide from Category Pages"
+msgstr "إخفاء من صفحات الفئة"
+
+#: templates/views/xswphp-metaboxes.php:36
+#: templates/views/xswphp-quickedit.php:47
+msgid "Hide from Tag Pages"
+msgstr "إخفاء من صفحات العلامة"
+
+#: templates/views/xswphp-metaboxes.php:42
+#: templates/views/xswphp-quickedit.php:53
+msgid "Hide from Author Pages"
+msgstr "إخفاء من صفحات المؤلف"
+
+#: templates/views/xswphp-metaboxes.php:48
+#: templates/views/xswphp-quickedit.php:59
+msgid "Hide from Date Archive Pages"
+msgstr "إخفاء من تاريخ الأرشيف الصفحات"
+
+#: templates/views/xswphp-metaboxes.php:54
+#: templates/views/xswphp-quickedit.php:65
+msgid "Hide from Search Pages"
+msgstr "إخفاء من صفحات البحث"
+
+#: templates/views/xswphp-metaboxes.php:60
+#: templates/views/xswphp-quickedit.php:71
+msgid "Hide from Feeds"
+msgstr "إخفاء من الأعلاف"
+
+#: templates/views/xswphp-metaboxes.php:66
+#: templates/views/xswphp-quickedit.php:77
+msgid "Hide from Recent Post"
+msgstr "إخفاء من آخر مشاركة"
+
+#: templates/views/xswphp-metaboxes.php:72
+#: templates/views/xswphp-quickedit.php:83
+msgid "Hide from Next and pervious rel link"
+msgstr "إخفاء من رابط rel التالي والسابق"
+
+#: templates/views/xswphp-metaboxes.php:94
+#: templates/views/xswphp-quickedit.php:113
+msgid "Hide from listing of pages in Front Page"
+msgstr "إخفاء من قائمة الصفحات في الصفحة الأولى"
+
+#: templates/views/xswphp-metaboxes.php:98
+#: templates/views/xswphp-quickedit.php:119
+msgid "Hide form pages list everywhere"
+msgstr "إخفاء قائمة صفحات النموذج في كل مكان"
+
+#: templates/views/xswphp-quickedit.php:24
+#: templates/views/xswphp-quickedit.php:103
+msgid "visibility"
+msgstr "رؤية"
+
+#: templates/views/xswphp-quickedit.php:103
+msgid " "
+msgstr ""
+
+#: templates/xswphp-page.php:19
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: templates/xswphp-page.php:30
+msgid "Please Check the Post Types you include this functonality"
+msgstr "يرجى التحقق من أنواع النشر التي تتضمنها هذه الوظيفة"
+
+#: templates/xswphp-page.php:52
+msgid "Enable for Quick Edit"
+msgstr "تمكين التحرير السريع"
+
+#: templates/xswphp-page.php:59
+msgid "Enable for Bulk Edit"
+msgstr "تمكين تحرير الجملة"
