@@ -3,7 +3,7 @@
  * Plugin Name: WP Post Hide
  * Description: Control the visibility of post type items like pages and posts .Hidden in specific part.But other part still visible.
  * Plugin URI:http://www.xfinitysoft.com/wordpress-post-hide/
- * Version: 1.0.1
+ * Version: 1.0.8
  * Author:Xfinity Soft
  * Author URI:http://www.xfinitysoft.com/
  * Text Domain:xswpph-domain

@@ -63,17 +63,19 @@ class XSWPPH_Main {
         add_action( 'add_meta_boxes', array( 'XSWPPH_Init' , 'xswpph_add_meta_box' ) );
         add_action( 'save_post' , array( 'XSWPPH_Init' , 'xswpph_save_meta_data'), 10,3  );
         add_action( 'pre_get_posts' , array( 'XSWPPH_Init' , 'xswpph_hidden_posts_pages') );
+        add_action( 'wp_ajax_xswpph_send_mail' ,array('XSWPPH_Init','xswpph_send_mail'));
     }
 
     /**
     * Includes the files
     */
     function xswpph_includes() {
-
-    	include_once XSWPPH_ABSPATH . '/includes/classes/class-xswpph-init.php';
-        include_once XSWPPH_ABSPATH . '/templates/xswpph-page.php';
         include_once XSWPPH_ABSPATH . '/templates/views/xswpph-metaboxes.php';
         include_once XSWPPH_ABSPATH . '/includes/functions/xswpph-functions.php';
+    	include_once XSWPPH_ABSPATH . '/includes/classes/class-xswpph-init.php';
+        include_once XSWPPH_ABSPATH . '/templates/xswpph-page.php';
+        include_once XSWPPH_ABSPATH . '/templates/xswpph-support.php';
+        
     }
     
 }

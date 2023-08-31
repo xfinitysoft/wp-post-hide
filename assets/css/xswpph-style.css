@@ -36,6 +36,37 @@
     margin: 0px;
     padding-bottom: 0px;
 }
+#xswpph_name,#xswpph_email{
+    width: 335px;
+}
+.xs-send-email-notice{
+  display: none;
+}
+.xs-notice-dismiss{
+  display:none;
+}
+.xswpph-send-mail{
+    font-size: 15px !important;
+    font-family: bold;
+    padding: 2px 15px !important;
+}
+.xswpph_is_active{
+    display:inline-block;
+    visibility:visible;
+    opacity:1
+}
+.xswpph-top-margin{
+    margin-top: 20px !important; 
+}
+.xswpph-mail-spinner{
+    margin-top: 38px ;
+}
+.error{
+    outline: 1px solid red;
+}
+.input-group{
+    display: inline-flex;
+}
 @media (max-width: 425px){
     .xswpph-col {
       width: 400px;
